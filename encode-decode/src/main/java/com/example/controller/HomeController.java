@@ -38,6 +38,8 @@ public class HomeController {
 		mav.addObject("base64Image", base64Image);
 		mav.setViewName("index");
 		
+		encodeDecode.encodeString();
+		
 		return mav;
 	}
 }
