@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+	<p th:text="${base64Image}" />
+	<img th:src="${'data:image/png;base64,' + base64Image}" />
+</body>
+</html>
